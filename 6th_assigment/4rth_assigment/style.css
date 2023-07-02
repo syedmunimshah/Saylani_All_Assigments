@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aqua; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+   display:flex ;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.heading{
+    padding-bottom: 30px;
+}
+.table_body{
+   
+ text-align: center;
+}
+.White{
+    width: 100px;
+    height: 100px;
+    background-color: #EBECD0;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: #779556;
+}
+img{
+    /* height: 130px; */
+    width: 30px;
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.body{
+    color: white;
+    margin: auto;
+    width: 40%;
+   text-align: center;
+    margin-top: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+.inner_body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+input {
+    margin-top: 20px;
+}
+.btn{
+    padding: 10px 25px;
+    margin-bottom: 20px;
+}

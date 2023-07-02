@@ -1,0 +1,13 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bg_g{
+    background-color: #CBDCEC;
+  
+    
+}
+.dark{
+    font-weight: 700;
+}
