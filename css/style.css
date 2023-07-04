@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100&family=Mulish:wght@300&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,300&family=Rowdies:wght@300;400;700&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+.hero_sec{
+    background-color: #2e2e2e !important;
+  
+}
+.navbar{
+    margin-top: 30px;
+}
+
+.navbar-nav li a{
+    color: white;
+    text-transform: capitalize;
+    margin-right: 15px;;
+    position: relative;
+}
+.navbar-nav li a:before{
+  content: "";
+  position: absolute;
+  top: 100%;
+  bottom: 50%;
+  width: 0%;
+  height: 3%;
+  background-color: #4869E8;
+  transform: all 0.3s linear;
+
+}
+.navbar-nav li a:hover::before{
+    width: 80%;
+}
+.navbar-nav li a:hover{
+    color: #4869E8;
+    font-weight: 600;
+}
+.navbar-nav .nav-link.active{
+    color: #4869E8;
+}
+
+
+
+@media only screen and (max-width: 990px) {
+    .navbar-nav {
+      margin-top: 40px; 
+      text-align: center;
+    }
+    .navbar-nav li a:hover:before{
+        width: 0%;
+    }
+  }
+
+.carousel-inner img{
+height: 90vh;
+
+  }
+.carousel-inner h5 ,p{
+    color: black;
+    
+}
+.marketing a:hover{
+    color: white;
+    background-color: black;
+}
+.back_mar{
+background: #ececf7;
+
+
+}
+.carousel-inner  .carousel-caption{
+    padding-bottom: 7.5rem ;
+    
+    
+
+
+}
+.carousel-inner  .carousel-caption h1{
+  
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 900px;
+
+
+}
+.carousel-inner  .carousel-caption p{
+    
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 900px;
+
+
+}
+#slider h1{
+ font-size: 60px;
+ font-weight: 900px;
+ text-transform: capitalize;
+ margin: 40px 0px;
+}
+#slider a{
+text-decoration: none;
+}
+.back_mar .marketing .bbb{
+    font-size: 60px;
+   
+}
+.back_mar .marketing .h1{
+    font-size: 50px;
+    /* font-weight: 900; */
+    margin: 20px 0px;
+}
+#myFooter{
+    margin-top: -90px;
+}
+
