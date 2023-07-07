@@ -1,11 +1,11 @@
 #myFooter {
-    background-color: #3c3d41;
+    background-color: #2E2E2E;
     color: white;
     padding-top: 30px;
 }
 
 #myFooter .footer-copyright {
-    background-color: #333333;
+    background-color: #1f1e1e;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -86,7 +86,7 @@
 
 #myFooter .btn {
     color: white;
-    background-color: #d84b6b;
+    background-color: #0077e2;
     border-radius: 20px;
     border: none;
     width: 150px;

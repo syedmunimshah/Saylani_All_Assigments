@@ -9,9 +9,75 @@
     background-color: #2e2e2e !important;
   
 }
+@font-face {
+    font-family: "poppin";
+    src: url(../font/Poppins-ExtraBold.ttf);
+}
+.hero_sec h1{
+    text-shadow: 2px 2px 2px #2e2e2e;
+    font-family: "poppin";
+    font-size: 35px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+   
+}
+
+.hero_sec h2{
+    text-shadow: 2px 2px 2px #2e2e2e;
+    font-family: "poppin";
+    font-size: 30px;
+    word-spacing: 1px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.form_back{
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.inner_form{
+    padding: 40px 40px;
+
+}
+.inner_form h1{
+    text-shadow: none;
+}
 .navbar{
     margin-top: 30px;
 }
+.btn_form{
+    margin-top: 40px;
+    text-align: center;
+    padding: 10px 90px;
+    background-color: #4869E8;
+    color: #ffffff;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    
+}
+.btn_form:hover{
+ 
+   
+   
+    background-color: #ffffff;
+    color: #4869E8;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    text-transform:capitalize;
+    font-size: 20px;
+    font-weight: 900px;
+    letter-spacing: 1px;
+    
+}
+
 
 .navbar-nav li a{
     color: white;
@@ -52,6 +118,7 @@
         width: 0%;
     }
   }
+
 
 .carousel-inner img{
 height: 90vh;
