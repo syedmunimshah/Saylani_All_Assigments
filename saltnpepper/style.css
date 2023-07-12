@@ -1,0 +1,265 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #000000;
+    color: white;
+}
+
+@font-face {
+    font-family: "futrak";
+    src: url(/saltnpepper/futurak/futur.ttf);
+}
+.nav_back{
+    background-color: #000000;
+}
+/* .navbar ul li a {
+   
+} */
+.navbar img{
+    width: 164px;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400px;
+    letter-spacing: 0px;
+    margin-right: 22px;
+}
+.nav_mar{
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.nav_btn1{
+    background-color: #000000;
+    color: white;
+    color: rgb(255, 255, 255);
+    /* padding: 12px 16.5px; */
+    width: 230px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 35px;
+    border: 1px solid #fff;
+    margin :0px 15px 0px 15px;
+    
+    
+}
+
+#nav_h {
+   
+    background: white!important;
+}
+
+@media screen and (max-width: 1095px) {
+    .nav_btn1 {
+display: none;      
+    }
+  }
+
+ 
+  @media screen and (max-width: 1260px) {
+    #navbarSupportedContent > ul > li:nth-child(n) > a {
+        color: white;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 400px;
+        letter-spacing: 0px;
+        margin-right: 22px;
+    }
+
+    /* .navbar img{
+        margin-left: 345px;
+      
+    } */
+    /* #nav_h{
+        margin-right: 240px;
+        margin-top: -109px;
+        color: white;
+        background: white;
+    } */
+  }
+.nav_btn2{
+    background-color: #ed1c24;
+   text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    width: 230px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 35px;
+    border: 1px solid #ed1c24;
+    margin :0px 15px 0px 0px;
+
+    
+    
+}
+.nav_btn2_icon{
+   
+    background-color: #fff;
+    color: #dc3545;
+    padding: 6px 9px;
+    border-radius: 23px;
+    margin-left: 7px;
+ 
+}
+/* .carousel-item{
+height: 90vh;
+} */
+
+.back_2nd{
+    background-color: #000000;
+    padding-top: 90px;
+    padding-bottom: 120px;
+}
+
+.back_2nd h2 .dark_heading{
+    font-family: 'futrak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+.back_2nd h2 .dark_heading1{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+.para{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 40px;
+}
+.back_2nd img{
+    background-color: white;
+    margin-bottom: 23px;
+    width: 280px;
+    height: 140px;
+    border-radius: 5px;
+
+}
+.back_2nd button{
+    background-color: rgb(0, 0, 0);
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.back_3rd{
+ background-color: rgba(255, 255, 255, 0.06);
+}
+.back_3rd .heading{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+padding-top: 60px;
+}
+.back_3rd p{
+   
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
+.smalll{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block;
+}
+.about a{
+text-decoration: none;
+color: white;
+}
+.about .btn{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.arrow-one{
+    background-color: #fff;
+    color: #dc3545;
+    width: 27px;
+    height: 27px;
+    padding: 5px 8px;
+    border-radius: 30px;
+    margin-left: 10px;
+}
+.inner_back{
+    position: relative;
+}
+.one_right_img{
+    position: absolute;
+    right: 32px;
+    top: 32px;
+}
+.one_left_img{
+    position: absolute;
+    left: 30px;
+    top: 32px;
+}
+.one_right_center_img{
+    position: absolute;
+    right: 0px;
+    bottom: -50px;
+}
+.back_4th{
+    padding-top: 50px;
+}
+.btn{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
