@@ -4,6 +4,16 @@
     box-sizing: border-box;
    
 }
+p{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    
+}
 body{
     background-color: #000000;
     color: white;
@@ -262,4 +272,183 @@ color: white;
     color: #FFFFFF;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+.smmall{
+    font-family: 'apercu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    color: #ED1C24;
+    margin-bottom: 8px;
+    display: block; 
+}
+.sec_4_heading{
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.sec_4_parah{
+    font-family: 'Apercu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 12px;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.sec_4_parah a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.btn_1{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    FONT-VARIANT: JIS83;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.btn_1:hover{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+    FONT-VARIANT: JIS83;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.arrow-one{
+    padding: 8px 8px 6px;
+}
+.section_5th{
+    background-color: rgba(255, 255, 255, 0.06);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.section_5th a{
+    text-decoration: none;
+    color: white;
+}
+.btn_green{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: #28A745;
+    color: #FFFFFF;
+    FONT-VARIANT: JIS83;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.btn_green .arrow-one{
+  color: #28A745;
+}
+.btn_green:hover{
+    width: 174px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    background-color: #28A745;
+    color: #FFFFFF;
+    FONT-VARIANT: JIS83;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.section_6{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.card{
+  
+    height: 270px;
+    color: #000000;
+    background: #FFFFFF;
+    border-radius: 4px;
+    text-align: center;
+    /* padding: 25px 24px; */
+    /* margin: auto; */
+    margin-bottom: 32px;
+}
+.card img{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 60px;
+    margin: 0px auto;
+}
+.para2{
+    color: #000000;
+    font-size: 20px;
+
+}
+.back_footer{
+    color: #fff;
+   
+    padding: 70px 15px 0px 15px;
+    background: rgba(255, 255, 255, 0.06);
+    
+}
+.back_footer img{
+    width: 160px;
+    margin-bottom: 25px;
+}
+.back_footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: -30px;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.back_footer a{
+    color: white;
+    text-decoration: none;
+
+}
+.back_footer .icon {
+   
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ED1C24;
+    color: #fff;
+    border-radius: 50px;
+    
+    
+    
 }
