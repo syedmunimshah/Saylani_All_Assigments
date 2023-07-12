@@ -416,12 +416,13 @@ color: white;
 }
 .back_footer{
     color: #fff;
-   
-    padding: 70px 15px 0px 15px;
+   position: relative;
+    padding: 70px 15px 19px 15px;
     background: rgba(255, 255, 255, 0.06);
     
 }
 .back_footer img{
+ 
     width: 160px;
     margin-bottom: 25px;
 }
@@ -451,4 +452,12 @@ color: white;
     
     
     
+}
+.left_side_footer{
+    position: absolute;
+    
+}
+.left_side_footer img{
+    height: 400px;
+    width: 330px;
 }
