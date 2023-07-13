@@ -19,10 +19,7 @@ body{
     color: white;
 }
 
-@font-face {
-    font-family: "futrak";
-    src: url(/saltnpepper/futurak/futur.ttf);
-}
+
 .nav_back{
     background-color: #000000;
 }
@@ -31,6 +28,9 @@ body{
 } */
 .navbar img{
     width: 164px;
+}
+#navbarSupportedContent{
+    margin-right: -82px;
 }
 #navbarSupportedContent > ul > li:nth-child(n) > a{
     color: white;
@@ -55,7 +55,9 @@ body{
     font-weight: 400;
     border-radius: 35px;
     border: 1px solid #fff;
-    margin :0px 15px 0px 15px;
+    /* margin :0px 15px 0px 15px; */
+    margin-left: 34px;
+   
     
     
 }
@@ -65,9 +67,9 @@ body{
     background: white!important;
 }
 
-@media screen and (max-width: 1095px) {
+@media screen and (max-width: 992px) {
     .nav_btn1 {
-display: none;      
+        display: none!important;       
     }
   }
 
@@ -103,7 +105,9 @@ display: none;
     font-weight: 400;
     border-radius: 35px;
     border: 1px solid #ed1c24;
-    margin :0px 15px 0px 0px;
+    /* margin :0px 15px 0px 0px; */
+    margin-right: 34px;
+    
 
     
     
@@ -127,24 +131,41 @@ height: 90vh;
     padding-bottom: 120px;
 }
 
-.back_2nd h2 .dark_heading{
-    font-family: 'futrak';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 52px;
-    line-height: 62px;
-    color: #FFFFFF;
+
+
+
+@font-face {
+    font-family: "Apercu";
+    src: url(/Apercu/Apercu\ Light.otf);
+  
 }
-.back_2nd h2 .dark_heading1{
+.main_custom_heading-second h2{
+
     font-family: 'Apercu';
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 50px;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+}
+@font-face {
+    font-family: "futrak";
+    src: url(/futurak/futur.ttf);
+}
+ span.logo-text-hold {
+    font-family: 'futrak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+   line-height: 62px;
     text-align: center;
     color: #FFFFFF;
-    margin-bottom: 8px;
+   
 }
+
+
+
 .para{
     font-family: 'Apercu';
     font-style: normal;
@@ -453,11 +474,9 @@ color: white;
     
     
 }
-.left_side_footer{
+
+.left_side_footer .left_side_img{
     position: absolute;
-    
-}
-.left_side_footer img{
     height: 400px;
     width: 330px;
 }
