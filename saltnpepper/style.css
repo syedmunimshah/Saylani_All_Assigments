@@ -138,6 +138,10 @@ body {
         width: 104px;
         margin: 0px -8px 0px 0px;
     }
+
+    .back_2nd button{
+        width: 132px!important;
+    }
 }
 @media screen and (max-width: 1230px) {
     .nav_btn2 {
