@@ -680,23 +680,185 @@ video {
     z-index: 1;
 }
 
-/* .promotion__title__line {
-    width: 70%;
-   
-    line-height: 1.25;
- 
+.promotion__title__line {
+    font-size: 2.5rem;
+    display: block;
+    line-height: 1em;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: 900;
-    font-size: .85em;
 }
 
 .promotion__body {
-    
+    font-size: .85em;
+    width: 80%;
+    margin: 1em 0;
+    line-height: 1.25;
+    font-weight: 300;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: left;
 }
 
 .right_back_imggh {
- 
-  
-    width: 50%;
-    margin: 0px auto;
-    
-} */
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 87.8px;
+
+}
+
+.sec_8 {
+    height: auto;
+    background-color: #fff;
+    color: #0065c3;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.social__title {
+    font-size: 2.75rem;
+    line-height: 2.5rem;
+    font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 900;
+
+
+
+}
+
+@media screen and (max-width: 1189px) {
+    .social__title {
+        width: 100%;
+        height: auto;
+        font-size: 2.6rem;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 1021px) {
+    .social__title {
+        width: 100%;
+        height: auto;
+        font-size: 2rem;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 1021px) {
+    .social__title {
+        width: 100%;
+        height: auto;
+        font-size: 2.4rem;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 959px) {
+    .social__title {
+        width: 100%;
+        height: auto;
+        font-size: 1.7rem;
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 959px) {
+    .social__title {
+        width: 100%;
+        height: auto;
+        font-size: 1.2rem;
+
+    }
+
+
+
+}
+
+.footer_sec {
+    height: 18rem;
+    background: #0065c3;
+    color: #fff;
+}
+
+.footer_sec ul li {
+    font-weight: bolder;
+    list-style: none;
+    font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: 400px;
+
+}
+
+.footer_sec ul li:hover {
+
+    color: #1437bf;
+
+
+}
+
+.footer_iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 18rem;
+}
+
+.icon {
+    font-size: 30px;
+    color: white;
+    padding-right: 10px;
+}
+
+.icon:hover {
+    color: #1437bf;
+}
+
+.pespi_btnn {
+    font-size: 0.9em;
+    padding: 4px 22px;
+    border: 2px solid #fff;
+    border-radius: 1.8em;
+    background: transparent;
+    color: #fff;
+    font-family: Sofia Pro;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+
+    margin-right: 32px;
+
+}
+
+.pespi_btnn:hover {
+    background-color: #fff;
+    color: #0065c3;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+    -webkit-animation-name: flip;
+    animation-name: flip
+}
+
+@media screen and (max-width: 991px) {
+    #foter_logo_mobile {
+
+        margin-left: 30px;
+        margin-top: 30px;
+        width: 200px !important;
+
+
+    }
+
+
+
+}
