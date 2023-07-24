@@ -1,0 +1,496 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+
+}
+@font-face {
+    font-family: "Fidel";
+    src: url(/FidelStencil-Black.otf);
+}
+
+body {
+    background-color: #2f559d !important;
+}
+
+.nav_background {
+    background: transparent url(/img/bg1-min.png);
+    background-size: 100%;
+    min-height: 100vh;
+    background-position: bottom;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #6e71c7;
+    height: auto;
+    position: relative;
+}
+
+.banner_img_top {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+}
+
+#navbarSupportedContent>ul.navbar-nav.me-auto.mb-2.mb-lg-0>li:nth-child(n)>a {
+    color: white;
+    font: normal normal normal 18px/22px Helvetica Neue WGL;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    margin-right: 20px;
+}
+
+.navbar-brand img {
+    margin-right: 40px;
+}
+
+.social_icon_header {
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    font-size: 25px;
+
+
+}
+
+.social_icon_header li {
+    margin-right: 40px;
+
+
+}
+
+.btn_1 {
+    font: normal normal 900 27px/33px Fidel;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 58px;
+    background: #d53434 0 0 no-repeat padding-box;
+    border-radius: 29px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    width: 217px;
+    height: 58px;
+    transition: all .2s ease-in-out;
+}
+
+.white_box {
+    margin-top: 30px;
+    background-color: #fff;
+    width: 373px;
+    height: 58px;
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.white_box_inner {
+    text-align: center;
+    letter-spacing: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.btn_2 {
+    font: normal normal 900 27px/33px Fidel;
+    letter-spacing: 0;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 58px;
+    background: #d53434 0 0 no-repeat padding-box;
+    border-radius: 29px;
+    opacity: 1;
+    text-align: center;
+    border: none;
+    width: 217px;
+    height: 58px;
+    transition: all .2s ease-in-out;
+    margin-right: 20px;
+}
+
+.btn_3 {
+    background: rgb(30, 30, 30);
+    color: #fff;
+    border: none;
+    /* display: flex; */
+    outline: none;
+    padding: 0.875rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 8px 15px;
+    transition: opacity 0.25s ease-in-out 0s;
+    align-items: center;
+    font: normal normal 900 27px/33px Fidel;
+    border-radius: 0.5rem;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.btn_inner_img {
+    width: 21px;
+    height: 21px;
+    margin-right: 0.875rem;
+}
+
+.btn_box {
+    margin-top: 30px;
+}
+
+
+/* sec 2 start  */
+
+.sec2 {
+    background: transparent url(/img/sec2/bg2-min.png) 0 0 no-repeat padding-box;
+    width: 100%;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.theme_heading {
+    text-align: center;
+    font: normal normal 900 83px/104px Fidel;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.style_sec_text_cont__FvOpp {
+    letter-spacing: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 29px;
+    line-height: 2rem;
+    color: #fff;
+
+}
+.style_sec_text_cont__FvOpp h2 {
+    text-align: left;
+    font: normal normal 900 58px/73px Fidel;
+    letter-spacing: 0;
+    color: #fff;
+    
+   
+
+}
+
+.style_sec_text_cont__FvOpp p {
+    /* font-size: 29px; */
+    /* font-family: Roboto; */
+
+}
+.style_traits__cnSFU h2 {
+    text-align: left;
+    font: normal normal 900 58px/73px Fidel;
+    letter-spacing: 0;
+    color: #fff;
+}
+.style_traits__cnSFU p {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 40px;
+}
+.style_blue_col__InLr0 {
+    font-weight: 400!important;
+    font-family: Fidel;
+    font-size: 36px;
+    letter-spacing: 0;
+    color: #7bd1ff;
+}
+
+/* sec 2 end  */
+
+/* sec 3 start  */
+
+.sec3{
+    background: #2f559d 0 0 no-repeat padding-box;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.style_blue_col__InLr0{
+    font-weight: 400!important;
+    font-family: Fidel;
+    font-size: 36px;
+    letter-spacing: 0;
+    color: #7bd1ff;
+}
+.style_white_col__SIqKU {
+    font-weight: 400;
+    font-family: Fidel;
+    font-size: 37px;
+    letter-spacing: 0;
+    color: #fff;
+    padding-left: 10px;
+}
+/* sec3 end  */
+
+/* sec4 start  */
+.sec4{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background: transparent url(/img/sec4/bg3-min.png) 0 0 no-repeat padding-box;
+    width: 100%;
+    background-color: #b8860b;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inner_sec4{
+    background: #6cb1ed 0 0 no-repeat padding-box;
+    width: 95%;
+    max-width: 1161px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+.style_mainhead__ts14B h1 {
+    color: #fce956;
+}
+.style_watch_container__A_a73 {
+    margin-top: 50px;
+    background-color: #fce956;
+    display: flex;
+    padding: 15px 20px;
+}
+.style_watch_container__A_a73 .style_watch_wrapper__jAVJR {
+    width: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.style_sec_head__kmBUr h2 {
+    font-weight: 400;
+    font-size: 48px;
+    font-family: Fidel;
+    color: #000;
+    letter-spacing: 0;
+    opacity: 1;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.style_roadmap_steps_wrapper__QwJGJ {
+    margin-top: 100px;
+}
+.style_step_container__dLehu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.style_road_num__eEli9 {
+    border: 3px solid #000;
+    opacity: 1;
+    width: 186px!important;
+    height: 108px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.style_road_num__eEli9 h1 {
+    margin: 0;
+    font-family: Fidel;
+    font-weight: 900;
+    font-size: 50px;
+}
+.style_road_p__vNzRS {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: 500;
+    font-family: Roboto;
+    letter-spacing: 0;
+    color: #030303;
+    opacity: 1;
+    font-size: 28px;
+    margin: 0;
+}
+/* sec 4 end  */
+ /* sec 5 start  */
+ .sec5{
+    background: transparent url(/img/sec5/bg4-min.png) 0 0 no-repeat padding-box;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+ }
+ /* sec 5 end  */
+@media screen and (min-width: 1400px) {
+    .line_mbl {
+        display: none;
+
+
+    }
+
+    .sec1_mbl {
+        display: none;
+    }
+
+    .banner_img_top_mbl {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .line_mbl {
+        display: none;
+
+
+    }
+
+    .sec1_mbl {
+        display: none;
+    }
+
+    .banner_img_top_mbl {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .btn_1 {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+
+    #navbarSupportedContent>ul.navbar-nav.me-auto.mb-2.mb-lg-0>li:nth-child(n)>a {
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    .line_mbl {
+        display: block;
+        border: 2px solid white;
+        width: 100%;
+
+
+    }
+
+    .banner_img_top {
+        width: 50%;
+        margin-top: 130px;
+        text-align: center;
+    }
+
+    .mbl_img {
+        width: 400px;
+        margin-top: 11px;
+    }
+
+    .white_box {
+        width: 70%;
+    }
+
+    .btn_2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .theme_heading {
+        width: 100%;
+        font: normal normal 900 32px/61px Fidel;
+
+    }
+
+    .style_sec_text_cont__FvOpp p {
+        font: normal normal medium 29px/39px Roboto !important;
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .sec1_desktop {
+        display: none;
+    }
+
+    .banner_img_top {
+        display: none;
+    }
+
+    .banner_img_top_mbl {
+        display: block;
+    }
+
+
+    .sec1_mbl {
+        display: block;
+        width: 100%;
+        margin-top: 100px;
+    }
+
+    .banner_img_top {
+        width: 50%;
+        margin: 0px auto;
+        text-align: center;
+    }
+
+    .mbl_img {
+        width: 400px;
+        margin-top: 11px;
+    }
+
+    .white_box {
+        width: 70%;
+    }
+
+    .btn_2 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar-brand img {
+
+        width: 52%;
+    }
+    #mbl_left{
+        display: flex!important;
+        justify-content: flex-start!important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .theme_heading {
+        width: 100%;
+        font: normal normal 900 22px/61px Fidel;
+
+    }
+
+    .style_sec_text_cont__FvOpp p {
+        font: normal normal medium 29px/39px Roboto !important;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {}
