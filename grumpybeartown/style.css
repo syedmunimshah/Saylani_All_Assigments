@@ -256,7 +256,7 @@ body {
 
 .inner_sec4{
     background: #6cb1ed 0 0 no-repeat padding-box;
-    width: 95%;
+    width: 100%;
     max-width: 1161px;
     margin: 0 auto;
     padding: 50px 100px;
@@ -334,6 +334,70 @@ body {
     padding-bottom: 100px;
  }
  /* sec 5 end  */
+
+ /* sec6 start  */
+
+ .sec6{
+    background-color: #5496e3;
+    padding: 100px 0;
+ }
+ .sec6_box{
+    margin-bottom: 20px;
+    background-color: #fff!important;
+    padding: 10px 38px 20px;
+    border-radius: 17px;
+
+ }
+ .sec6_box h3{
+    text-align: left;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    margin: 0;
+    font: normal normal 700 26px/63px Roboto;
+    font-size: 26px;
+ }
+ .sec6_box p{
+    font: normal normal normal 19px/27px Roboto;
+    text-align: left;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    margin: 0;
+ }
+ .last_parah{
+    font: normal normal normal 23px/33px Roboto;
+    font-size: 23px;
+    letter-spacing: 0;
+    color: #000;
+    opacity: 1;
+    margin: 0 0 20px;
+    text-align: center;
+ }
+ .theme_headingg{
+    text-align: center;
+    font: normal normal 900 45px/56px Fidel;
+    letter-spacing: 0;
+    color: #fce956;
+    margin: 0 0 10px;
+ }
+ /* sec6 end  */
+
+ /* sec 7 start  */
+ .sec7{
+    background-color: #003063;
+    text-align: center;
+    padding: 50px;
+ }
+ .sec7 p{
+    text-align: center;
+    font: normal normal 300 22px/43px Roboto;
+    letter-spacing: 1.1px;
+    color: #fff;
+    opacity: 1;
+    margin: 10px 0;
+ }
+ /* sec 7 end  */
 @media screen and (min-width: 1400px) {
     .line_mbl {
         display: none;
