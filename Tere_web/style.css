@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "gilroy_Black";
+    src: url(/font/Gilroy-Medium.ttf);
+    /* src: url(/font/Gilroy-Bold.ttf); */
+}
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.nav_header {
+    padding-top: 50px;
+
+}
+
+.nav_header img {
+    width: 13vw;
+}
+
+#navbarSupportedContent>ul>li:nth-child(n)>a {
+
+    font-family: "gilroy_Black";
+    padding-right: 30px;
+    font-weight: 500;
+    font-size: 17.16px;
+    color: #000000;
+    ;
+}
+
+.btn_header {
+    font-weight: 500;
+    font-family: "gilroy_Black";
+    background: #75BF7A;
+    color: white;
+    border-radius: 6px;
+    padding: 15px 38px;
+}
+
+.banner {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    margin-left: 2px;
+    /* margin-right: 10px; */
+}
+
+.black_Dark_heading {
+    font-family: "gilroy_black";
+    font-weight: bold;
+    font-size: 60.73px;
+    color: #000000;
+    line-height: 65.91px;
+}
+
+.para {
+    font-family: "gilroy_black";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #9E9DA2;
+    margin: 30px 0px;
+
+
+}
+.btn_1{
+    width: 260px;
+height: 66.77316284179688px;
+font-size: 26px;
+border-radius: 5px;
+background-color: #000000;
+color: white;
+margin-right: 20px;
+
+}
+.icon_btn{
+    padding-right: 9px;
+}
+.btns_box{
+    width: 100%;
+}
+
+.back_gren{
+    background: #75BF7A;
+    color: white;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+.inner_box{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 166px;
+    padding: 0px 30px;
+
+}
+.form_outer{
+  display: flex;
+  justify-content: end;
+  padding-right: 15px;
+}
+.form_outer input{
+    width: 80%;
+    height: 66.77316284179688px;
+}
+.form_outer input::placeholder{
+    color: #DADADA;
+
+}
+.inner_box p{
+    font-family: "gilroy_black";
+font-size: 25px;
+/* font-weight: 600; */
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+   .banner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    text-align: center;
+    width: 100%;
+   }
+   .black_Dark_heading{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+   }
+.para{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.btns_box{
+    width: 100%;
+}
+#navbarSupportedContent{
+    text-align: center!important;
+    width: 100% !important;
+}
+.btn_header{
+    text-align: center!important;
+    width: 100% !important;
+}
+  }
+
