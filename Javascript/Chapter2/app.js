@@ -273,4 +273,62 @@
 // Write a program to check whether the given number is
 // divisible by 3. Show the message to the user if the number 
 // is divisible by 3.
+
 // // // <----(Answer 08)-->--
+
+// var a=prompt("Give number");
+
+// if(a%3==0)
+// {document.write("Yes divided By 3")
+
+// }
+// else{
+//     document.write("No divided By 3")
+// }
+
+// / <----(Qno 09)---->
+// 9. Write a program that checks whether the given input is an
+// even number or an odd number.
+
+// // // <----(Answer 09)-->--
+
+// var InputUser=prompt("Give me Input ? even number or an odd number");
+
+// if(InputUser%2==0){
+//     document.write("Even Numer");
+// }
+// else if(InputUser%2==1){
+//     document.write("Odd Numer");
+// }
+// else{
+//     document.write("Give Me Even number or an Edd number");
+// }
+
+// / <----(Qno 10)---->
+// 10. Write a program that takes temperature as input and 
+// shows a message based on following criteria
+// a. T > 40 then “It is too hot outside.”
+// b. T > 30 then “The Weather today is Normal.”
+// c. T > 20 then “Today’s Weather is cool.”
+// d. T > 10 then “OMG! Today’s weather is so Cool.”
+
+// // // <----(Answer 10)-->--
+// var T=prompt("Give Me Temperature");
+
+// if(T>40){
+//     document.write("<p>It is too hot outside</p>")
+
+// }
+// else if(T>30){
+//     document.write("<p>The Weather today is Normal.</p>")
+// }
+// else if(T>20){
+//     document.write("<p>Today’s Weather is cool.</p>")
+// }
+// else if(T>10){
+//     document.write("OMG! Today’s weather is so Cool</p>")
+// }
+// else{
+    
+//     document.write("Incorrect </p>")
+// }
