@@ -332,3 +332,130 @@
     
 //     document.write("Incorrect </p>")
 // }
+
+
+
+// // <----(Chapter 12 to 13)---->
+
+
+
+// / <----(Qno 1)---->
+// 1. Write a program that takes a character (number or string)
+// in a variable & checks whether the given input is a
+// number, uppercase letter or lower case letter. (Hint: ASCII
+// codes:- A=65, Z=90, a=97, z=122).
+
+// // // <----(Answer 1)-->--
+// var a=prompt("Give Me character (number or string)");
+
+// if(a>="0" && a<="9"){
+//     document.write("It is number");
+// }
+// else if(a>="A" && a<='Z'){
+//     document.write("It is uppercase letter");
+
+// }
+// else if(a>='a' && a<='z'){
+//     document.write("It is lower case letter");
+// }
+// else{
+//     document.write("Invalid");
+// }
+
+
+// / <----(Qno 2)---->
+// 2. Write a JavaScript program that accept two integers and
+// display the larger. Also show if the two integers are equal.
+// // // // <----(Answer 2)-->--
+// var num1=prompt("Give Me integer Number1");
+// var num2=prompt("Give Me integer Number2");
+// if(num1>num2){
+//     document.write("integer Number1 is larger");
+// }
+// else if(num2>num1){
+//     document.write("integer Number2 is larger");
+// }
+// else{
+//     document.write("Two integers are equal");
+// }
+
+// / <----(Qno 3)---->
+// 3. Write a program that takes input a number from user &
+// state whether the number is positive, negative or zero.
+// // // // <----(Answer 3)-->--
+// var num1=+prompt("Give Me integer Number1");
+// if(num1>'0'){
+//     document.write("Positive");
+// }
+// else if(num1<'0'){
+//     document.write("Negative");
+// }
+// else {
+//     document.write("Zero");
+// }
+
+// / <----(Qno 4)---->
+
+// 4. Write a program that takes a character (i.e. string of
+//     length 1) and returns true if it is a vowel, false otherwise
+
+    
+// // // // <----(Answer 4)-->--
+// var character=prompt("Give Me character").toLowerCase();
+
+// if(character.length===1 && character==='a'|| character==='e'||character==='i'||character==='o'||character==='u'){
+//     document.write("Vowel");
+
+// }
+// else{
+//     document.write(" Not Vowel");
+// }
+
+// / <----(Qno 5)---->
+// 5. Write a program that
+// a. Store correct password in a JS variable.
+// b. Asks user to enter his/her password
+// c. Validate the two passwords:
+// i. Check if user has entered password. If not, then
+// give message “ Please enter your password”
+// ii. Check if both passwords are same. If they are
+// same, show message “Correct! The password you
+// entered matches the original password”. Show
+// “Incorrect password” otherwise.
+
+// // // // <----(Answer 5)-->--
+
+// var correctPassword="correctPassword";
+// var UserPassword=prompt("Give Me Password");
+
+// if(correctPassword===UserPassword){
+//     document.write("Correct! The password you entered matches the original password");
+// }
+// else{
+//     document.write("Incorrect password! The password you entered Not matches the original password");
+// }
+
+// / <----(Qno 6)---->
+// 6. This if/else statement does not work. Try to fix it:
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";
+// else
+// greeting = "Good evening";
+// }
+
+// // // // <----(Answer 6)-->--
+
+
+// var greeting;
+// var hour = 13;
+// if (hour < 18) {
+// greeting = "Good day";}
+// else{
+// greeting = "Good evening";
+// }
+
+// / <----(Qno 7)---->
+
+// // // // <----(Answer 7)-->--
