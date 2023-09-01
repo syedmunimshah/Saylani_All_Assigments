@@ -106,3 +106,56 @@
 //     series.push(`${i}K`);
 // }
 // document.write(series);
+
+// Question Start
+// 7. You have an array
+// A = [“cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an
+// array.
+// After searching, prompt the user whether the given item is
+// found in the list or not. Example:
+
+//  Answer Start
+// var arry= ["cake","Apple pie","cookie","chips","patties"];
+// var a= prompt ("helo munim bakery's what do you want to search?");
+// var flag=false;
+// for(var i=0; i<arry.length; i++){
+//   if(a==="cake"||a==="Apple pie"||a==="cookie"||a==="chips"||a==="patties")
+//   {
+//     flag=true;
+//   }
+// }
+// if(flag){
+//   console.log(`${a} is available at ${arry.indexOf(a)} index in our bakery`)
+// }
+// else{
+//   console.log(`sorry ${a} is not available in our bakery `)
+// }
+
+
+// Question Start
+// 8. Write a program to identify the largest number in the
+// given array.
+// var arry = ["24","53", "78", "91", "12"];
+// var num=arry[0];
+// for(i=0; i<arry.length;i++){
+//     if(num<arry[i]){
+// num=arry[i];
+//     }
+// }
+// document.write(`Array items:${arry} <br> The Largest number is ${num}`);
+//  Answer Start
+
+// Question Start
+// 9. Write a program to identify the smallest number in the
+// given array.
+
+// var arry = ["24","53", "78", "91", "12"];
+// var num=arry[0];
+// for(i=0; i<arry.length;i++){
+//     if(num>arry[i]){
+// num=arry[i];
+//     }
+// }
+// document.write(`Array items:${arry} <br> The Smallest number is ${num}`);
+//  Answer Start

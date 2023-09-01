@@ -121,23 +121,105 @@
 // }
 // console.log(a);
 
-var a= "i am good boy";
-for (var i=0; i<a.length; i++){
- if(a.slice(i,i+3)==="boy" ){
-    a=a.slice(0,i)+ "Girl" +a.slice(i+3);
- }
-
-}
-console.log(a);
-
-
-
 
 
 
 
 // Method start 21 to 30
+//  chapter 21 start 
+//  var sentence ="hello Ali This is your first code";
+//  var check=sentence.toUpperCase();
+//  console.log(check);
+//  console.log(check=sentence.toUpperCase());
+// //  new string bana diya hy replace ni kiya 
+//  console.log(sentence);
 
+//  var sentence ="heLlo Ali This is your first code";
+//  var check=sentence.toLowerCase();
+//  console.log(check=sentence.toLowerCase());
+//  console.log(check);
+// //   new string bana diya hy replace ni kiya 
+//  console.log(sentence);
+// //  chapter 21 end
+
+
+//  chapter 22 start 
+
+// var sentence ="hello Ali This is your first code";
+// var SliceCopy=sentence.slice(6,9);
+// console.log(SliceCopy=sentence.slice(6,9));
+// jo copy hota hy wo hi return hoga (phely mai jo target karae ho, jaha tk karna ho target)
+// console.log(SliceCopy);
+// console.log(sentence);
+
+//  chapter 22 end
+
+//  chapter 23 start 
+
+// var sentence ="hello Ali This is your first code";
+// // var res=sentence.indexOf("Ali");
+// return index number and agr ni find karta tw -1 return kardyga 
+// // var res=sentence.indexOf("Alii"); 
+// console.log(res);
+
+
+//  chapter 23 End 
+
+//  chapter 25 start 
+
+// var sentence ="hello Ali This is your first code";
+// var res= sentence.replace("hello","Hey");
+// //  return new string 
+// console.log(sentence);
+// console.log(res);
+
+// var sentence ="hello Ali This is hello your first hello code";
+// var res= sentence.replaceAll("hello","Hey");
+// //  return new string 
+// console.log(sentence);
+// console.log(res);
+
+
+//  chapter 25 End 
+
+//  chapter 26 start 
+
+// The Math.round() method rounds a number to the nearest integer. 2.49 will be rounded down (2),
+//  and 2.5 will be rounded up (3).
+//  //The return value of each call to Math.round() is the rounded integer value.
+
+// float ko int mai kartaa hy 4.49 sy tk ho tw 4 return karta hy and 4.5 or 4.9 py ho tw 5 kardyga /
+// let a = Math.round(2.60);
+// let b = Math.round(2.50);
+// let c = Math.round(2.49);
+// let d = Math.round(-2.60);
+// let e = Math.round(-2.50);
+// let f = Math.round(-2.49);
+
+// var scoreAvg = Math.ceil(2.000001);
+// console.log(scoreAvg)
+
+// output is 3 
+
+// var scoreAvg = Math.floor(2.999999);
+// console.log(scoreAvg)
+// output is 2 
+
+//  chapter 26 End 
+
+//  chapter 27 start 
+
+// console.log(Math.random()*10);
+
+// var a="25";
+// console.log(typeof(a)) string 
+// console.log(typeof(Number(a))) Number 
+// console.log(typeof(a)) string 
+// new string bana raha hy orignal ko change ni karta 
+
+//  chapter 27 End 
 // Method end 21 to 30
+
+
 
 
