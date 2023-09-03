@@ -159,3 +159,32 @@
 // }
 // document.write(`Array items:${arry} <br> The Smallest number is ${num}`);
 //  Answer Start
+
+// Question Start
+    // 10. Write a program to print multiples of 5 ranging 1 to 
+// 100.
+
+
+//  Answer Start
+// var arry=[];
+// for (i=1; i<=100;i++){
+//   if (i%5===0){
+//     arry.push(i)
+//   ;
+// }}
+// console.log(arry)
+
+//</////////////////////////............=>> STRING METHODS  Chapter 21 to cahpter 25
+
+// Question Start
+
+// 1. Write a program that takes two user inputs for first and
+// last name using prompt and merge them in a new variable
+// titled fullName. Greet the user using his full name.
+
+//  Answer Start
+// var firstName=prompt ("Enter first name");
+// var lastName=prompt("Enter last Name");
+//console.log(firstName+lastName)
+//console.log(firstName.concat(lastName));
+// console.log(firstName+=lastName)
