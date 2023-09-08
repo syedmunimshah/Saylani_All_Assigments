@@ -188,3 +188,212 @@
 //console.log(firstName+lastName)
 //console.log(firstName.concat(lastName));
 // console.log(firstName+=lastName)
+
+// Question Start
+// 2. Write a program to take a user input about his favorite 
+// mobile phone model. Find and display the length of user 
+// input in your browser
+//  Answer Start
+// var a=prompt("Enter Input");
+// document.write("My favirote Phone is: "+a);
+// document.write("<br>Length Of String: "+a.length);
+
+// Question Start
+// 3. Write a program to find the index of letter “n” in the word
+// “Pakistani” and display the result in your browser .
+//  Answer Start
+// var a="Pnakistani";
+// document.write("String: "+a +"<br>");
+// document.write("Index Of 'n': "+a.indexOf("n") +"<br>");
+
+
+// Question Start
+// 4. Write a program to find the last index of letter “l” in the 
+// word “Hello World” and display the result in your browser.
+//  Answer Start
+
+// var a="Hello World";
+// document.write("String : " +a+"<br> Last Index of '1': "+a.lastIndexOf("l") );
+
+// Question Start
+// 5. Write a program to find the character at 3rd index in the 
+// word “Pakistani” and display the result in your browser.
+//  Answer Start
+// var a="Pakistani";
+// document.write("String :"+a+ "<br> Character of Index 3:"+a.charAt());
+
+// Question Start
+// 6. Repeat Q1 using string concat() method.
+
+// 1. Write a program that takes two user inputs for first and
+// last name using prompt and merge them in a new variable
+// titled fullName. Greet the user using his full name.
+//  Answer Start
+// var user1=prompt("Enter First Name");
+// var user2=prompt("Enter Last Name");
+// document.write(user1.concat(user2));
+
+// Question Start
+// 7. Write a program to replace the “Hyder” to “Islam” in the 
+// word “Hyderabad” and display the result in your browser.
+//  Answer Start
+
+// var a="Hyderabad";
+// document.writeln("City:"+a+"<br> After replacement:");
+
+// for(var i=0; i<a.length;i++){
+// if(a.slice(i ,i+5)==="Hyder"){
+//     a=a.slice(0,i)+"Islam"+a.slice(i+5)
+// }
+
+// }
+// document.write(a);
+
+// Question Start
+// 8. Write a program to replace all occurrences of “and” in the
+// string with “&” and display the result in your browser.
+// var message = “Ali and Sami are best friends. They play cricket and 
+// football together.”;
+
+// answer 
+// var a="Ali and Sami are best friends. They play cricket and football together";
+// for(i=0;i<a.length;i++){
+//     if(a.slice(i,i+3)==="and"){
+//         a=a.slice(0,i)+"&"+a.slice(i+3);
+//     }
+// }
+// document.write(a);
+
+// Question Start
+// 9. Write a program that converts a string “472” to a number 
+// 472. Display the values & types in your browser.
+// answer 
+// var num=472;
+// console.log(`Value : ${num}`)
+// console.log("Type "+ typeof(num.toString()))
+// console.log(`Value : ${num}`)
+// console.log("Type "+ typeof(num))
+
+// Question Start
+// 10. Write a program that takes user input. Convert and 
+// show the input in capital letters.
+// answer 
+// var a=prompt("Enter Input");
+// console.log("USer Input "+a);
+// console.log("UPPER Input "+a.toUpperCase());
+
+// Question Start
+// 11. Write a program that takes user input. Convert and 
+// show the input in title case.
+// answer 
+// var a=prompt("Enter Input");
+// document.write("User Input "+a+"<br>");
+// a=a[0].toUpperCase() +a.slice(1);
+// document.write(a);
+
+// var a=prompt("Enter Input");
+// document.write("User Input "+a+"<br>");
+// splice(1) ka meaning hy baki ka sb lylo 
+// a=a[0].toUpperCase()+a.slice(1);
+// document.write("Tittle Case "+a);
+
+// Question Start
+// 12. Write a program that converts the variable num to 
+// string.
+// var num = 35.36 ;
+// Remove the dot to display “3536” display in your browser.
+// answer 
+// var num=35.36;
+// console.log("Number : " + num);
+// var a=num.toString().replaceAll(".","")
+// console.log("Result : " + a);
+
+// Question Start
+// 13. Write a program to take user input and store username 
+// in a variable. If the username contains any special symbol 
+// among [@ . , !], prompt the user to enter a valid username. 
+// For character codes of [@ .
+
+// answer 
+// var a=prompt("Input User");
+// var flag=false;
+// for(var i=0; i<a.length; i++){
+//     if(a[i]==="!"|| a[i]==="@" ||a[i]==="," ||a[i]==="."){
+       
+// flag=true;
+//     }
+   
+// }
+// if(flag){
+//     document.write("Invalid ");
+// }
+// else{
+//     console.log(a);
+// }
+
+// Question Start
+// 14. You have an array
+// A = [cake”, “apple pie”, “cookie”, “chips”, “patties”]
+// Write a program to enable “search by user input” in an 
+// array. After searching, prompt the user whether the given 
+// item is found in the list or not.
+// Note: Perform case insensitive search. Whether the user 
+// enters cookie, Cookie, COOKIE or coOkIE, program 
+// should inform about its availability. Example
+
+// answer 
+// var arry= ["cake","Apple pie","cookie","chips","patties"];
+// var a= prompt ("helo munim bakery's what do you want to search?");
+// a=a.toLowerCase();
+// var flag=false;
+
+// for(var i=0; i<arry.length; i++){
+//     // var currentItem=arry[i];
+    
+//   if(a===arry[i])
+//   {
+//     flag=true;
+//   }
+// }
+// if(flag){
+//   console.log(`${a} is available at ${arry.indexOf(a)} index in our bakery`)
+// }
+// else{
+//   console.log(`sorry ${a} is not available in our bakery `)
+// }
+
+// Question Start
+// 15. Write a program to take password as an input from 
+// user. The password must qualify these requirements:
+// a. It should contain alphabets and numbers
+// b. It should not start with a number
+// c. It must at least 6 characters long
+// If the password does not meet above requirements,
+// prompt the user to enter a valid password.
+// For character codes of a-z, A-Z & 0-9, refer to ASCII
+// table at the end of this document.
+
+// answer 
+// var user=prompt("Enter Password");
+
+// Question Start
+// 16. Write a program to convert the following string to an 
+// array using string split method.
+// var university = “University of Karachi”;
+// Display the elements of array in your browser.
+
+// answer 
+// var university ="University of Karachi";
+// var universityarry=university.split("");
+// for(var i=0; i<universityarry.length;i++){
+//     console.log(universityarry[i]);
+// }
+
+// var university ="University of Karachi";
+// var arryuni=university.split("")
+// console.log(arryuni);
+// for(var i=0; i<arryuni.length; i++){
+//     console.log(arryuni[i]);
+// }
+// console.log(university);
+
