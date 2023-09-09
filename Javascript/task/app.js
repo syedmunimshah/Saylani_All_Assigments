@@ -220,6 +220,33 @@
 //  chapter 27 End 
 // Method end 21 to 30
 
+// Head And Tail Game Start
 
+// var player1=prompt("Enter Player 1");
+// var player2=prompt("Enter Player 2");
+// var randomNumber=Math.floor(Math.random()*2);
+// if(randomNumber===0){
+//     console.log(player1+"Heads Win");
+// }
+// else{console.log(player2+"Tail Win");}
+
+// (1000*60*60*24) =86400000
+// var TodayDate=new Date();
+// var userDate=new Date("11 March 2024");
+
+// var diff=userDate.getTime()-TodayDate.getTime();
+// var day=diff/(1000*60*60*24)
+// var month=diff/(1000*60*60*24*30)
+
+// var year =userDate.getFullYear()-TodayDate.getFullYear();
+// console.log(Math.round(day) + "Days");
+// console.log(Math.round(month) + "Month");
+// console.log(Math.round(year) + "Year");
+
+
+
+
+
+// Head And Tail Game End
 
 
