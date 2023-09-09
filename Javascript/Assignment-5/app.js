@@ -126,4 +126,58 @@
 
 // Assignment # 31-35 start
 
-// Assignment # 31-35 start
+// question 
+// 1. Write a program that displays current date and time in 
+// your browser.
+
+
+// Answer 
+// console.log(new Date());
+// console.log(moment().format());
+
+// question 
+// 2. Write a program that alerts the current month in words. 
+// For example December.
+// Answer 
+// const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+// var d=new Date();
+// console.log(month[d.getMonth()]);
+// console.log(moment().format("MMMM"));
+
+// question 
+// 3. Write a program that alerts the first 3 letters of the current
+// day, for example if today is Sunday then alert will show 
+// Sun.
+// Answer 
+
+// console.log(moment().format("MMM"));
+// question 
+// 4. Write a program that displays a message “It’s Fun day” if 
+// its Saturday or Sunday today.
+// Answer 
+// alert("Its Fun Day"),(console.log(moment().format("dddd")))
+
+// question 
+// 5. Write a program that shows the message “First fifteen 
+// days of the month” if the date is less than 16th of the month 
+// else shows “Last days of the month”.
+// Answer 
+// var d=moment().format("D")
+// if(d<16){
+//     console.log("First fifteen days of the month");
+
+// }
+// else{
+//     console.log("Last days of the month");
+// }
+// console.log(d)
+// var a=new Date().getDate();
+// if(a<16){
+//         console.log("First fifteen days of the month");
+    
+//     }
+//     else{
+//         console.log("Last days of the month");
+//     }
+// console.log(a);
+// Assignment # 31-35 end
