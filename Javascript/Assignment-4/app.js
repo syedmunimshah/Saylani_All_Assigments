@@ -374,8 +374,27 @@
 // table at the end of this document.
 
 // answer 
-// var user=prompt("Enter Password");
+// var randamValue="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// var pass="";
 
+// for(var i=0;i<10;i++){
+//     var RandomNumber=Math.floor(Math.random()*randamValue.length);
+// pass+=randamValue[RandomNumber];
+    
+
+// }
+// console.log(pass)
+
+// var user=prompt("Enter password");
+// var pass="";
+// for(var i=1; i<10;i++){
+//   var randomNum=Math.floor(Math.random()*user.length);
+//   pass+=user[randomNum];
+ 
+  
+// }
+
+// console.log(pass)
 // Question Start
 // 16. Write a program to convert the following string to an 
 // array using string split method.
@@ -396,4 +415,37 @@
 //     console.log(arryuni[i]);
 // }
 // console.log(university);
+
+// Question Start
+// 17. Write a program to display the last character of a user 
+// input.
+// Answer 
+// var a="Pakistan";
+// var a=a[a.length-1];
+// console.log("User Input : "+a+" Last Input Character is : " +a);
+
+// Question Start
+// 18. You have a string “The quick brown fox jumps over the 
+// lazy dog”. Write a program to count number of 
+// occurrences of word “the” in given string
+// Answer 
+
+// var Sentence="The quick brown fox jumps over the lazy dog";
+// var word=Sentence.split(" ");
+// var thee="the";
+// var count=0;
+// for(var i=0; i<word.length; i++){
+//    if(word[i].toLowerCase()===thee.toLowerCase())
+//    count++;
+    
+// }
+// console.log(`There are ${count} Occurrence of word ${thee}`)
+
+
+
+
+
+
+
+
 
