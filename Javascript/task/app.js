@@ -243,10 +243,19 @@
 // console.log(Math.round(month) + "Month");
 // console.log(Math.round(year) + "Year");
 
-
-
-
-
 // Head And Tail Game End
+
+// x! Factorial
+
+// function fac(num){
+//     var a=1;
+// for (var i=num;i>0;i--){
+//    a=i*a;
+// }
+//     return (a);
+// }
+// var num=+prompt("Enter Number ");
+// console.log(fac(num));
+
 
 
