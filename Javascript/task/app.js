@@ -85,7 +85,7 @@
 //     if(num[i]<min){
 //         min=num[i];
 //     }
-  
+
 // }
 // document.write( "<br>Answer: " +min +"<br>")
 
@@ -98,7 +98,7 @@
 //     if(num[i]>max){
 //         max=num[i];
 //     }
-  
+
 // }
 // document.write("<br> Answer: " +max);
 
@@ -258,4 +258,35 @@
 // console.log(fac(num));
 
 
+var arry = ['ghous',"ali" ,'ghous',"ghous", "ghous","ali"];
+
+// var arry = ['ali','ali','ali','ali',"ali","ali","ghous"]
+for (var i = 0; i < arry.length; i++) {
+    // console.log(arry , i + 1)
+    // debugger
+    for (var j = i; j < arry.length; j++) {
+        // console.log(j)
+        console.log(arry[i] === arry[j]);
+        if (arry[i] === arry[j]) {
+            arry.splice(j,1)
+        }
+    }
+
+}
+console.log(arry)
+// var arry = ['ali', 'ali', 'ghous'];
+
+// for (var i = 0; i < arry.length; i++) {
+//   for (var j = i + 1; j < arry.length; j++) {
+//     if (arry[i] === arry[j]) {
+//       for (var k = j; k < arry.length - 1; k++) {
+//         arry[k] = arry[k + 1];
+//       }
+//       arry.pop();
+//       j--;
+//     }
+//   }
+// }
+
+// console.log(arry);
 
