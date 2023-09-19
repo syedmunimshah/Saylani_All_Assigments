@@ -1,37 +1,65 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+/* Default styles for larger screens */
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
-.body_cal{
-    
-    border: 2px solid rgb(127, 127, 247);
-width: 40%;
-margin: 0px auto;
-padding: 10px 0px;
-background-color: rgb(76, 33, 175);
-border-radius: 10px;
+
+.body_cal {
+  border: 40px solid rgb(252, 219, 219);
+  width: 40%;
+  margin: 0px auto;
+  padding: 10px 0px;
+  background-color: #b045fc;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
 }
-.box{
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 10%;
+
+.box {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 10%;
   padding: 10px;
   border: 3px solid rgb(133, 155, 255);
   border-radius: 5px;
   margin: 5px;
 }
-.box1{
-    background-color: black;
-    color: white;
-    text-align: center;
-    width: 10%;
+
+.box1 {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 10%;
   padding: 10px 11%;
   border: 3px solid rgb(133, 155, 255);
   border-radius: 5px;
 }
-input{
-    width: 47%;
-    border: 3px solid rgb(133, 155, 255);
+
+input {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 47%;
+  border: 3px solid rgb(133, 155, 255);
+  border-radius: 5px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .body_cal {
+      width: 70%; /* Adjust the width for smaller screens */
+  }
+
+  .box,
+  .box1 {
+      width: 20%; /* Adjust the button width for smaller screens */
+      padding: 8px; /* Adjust padding for smaller screens */
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  input {
+      width: 60%; /* Adjust input width for smaller screens */
+  }
 }

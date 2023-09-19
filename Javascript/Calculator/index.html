@@ -13,33 +13,33 @@
     <div class="body_cal pt-5 ">
         <input type="text" id="Input_text">
         <div class="row d-flex justify-content-center align-items-center pt-3">
-            <button class="col-3 box">AC</button>
-            <button class="col-3 box">DEL</button>
-            <button class="col-3 box">%</button>
-            <button class="col-3 box">/</button>
+            <button class="col-3 box" onclick="cls()">AC</button>
+            <button class="col-3 box" onclick="del()">DEL</button>
+            <button class="col-3 box" onclick="percentage()">%</button>
+            <button class="col-3 box"  onclick="storeData('/')">/</button>
         </div>
         <div class="row d-flex justify-content-center align-items-center">
             <button class="col-3 box" onclick="storeData('7')">7</button>
-            <button class="col-3 box">8</button>
-            <button class="col-3 box">9</button>
-            <button class="col-3 box">*</button>
+            <button class="col-3 box" onclick="storeData('8')">8</button>
+            <button class="col-3 box" onclick="storeData('9')">9</button>
+            <button class="col-3 box" onclick="storeData('*')">*</button>
         </div>
         <div class="row d-flex justify-content-center align-items-center">
-            <button class="col-3 box">4</button>
-            <button class="col-3 box">5</button>
-            <button class="col-3 box">6</button>
-            <button class="col-3 box">-</button>
+            <button class="col-3 box" onclick="storeData('4')">4</button>
+            <button class="col-3 box" onclick="storeData('5')">5</button>
+            <button class="col-3 box" onclick="storeData('6')">6</button>
+            <button class="col-3 box" onclick="storeData('-')">-</button>
         </div>
         <div class="row d-flex justify-content-center align-items-center">
-            <button class="col-3 box">1</button>
-            <button class="col-3 box">2</button>
-            <button class="col-3 box">3</button>
-            <button class="col-3 box">+</button>
+            <button class="col-3 box" onclick="storeData('1')">1</button>
+            <button class="col-3 box" onclick="storeData('2')">2</button>
+            <button class="col-3 box" onclick="storeData('3')">3</button>
+            <button class="col-3 box" onclick="storeData('+')">+</button>
         </div>
         <div class="row d-flex justify-content-center align-items-center">
-            <button class="col-3 box">0</button>
-            <button class="col-3 box">.</button>
-            <div class="col-6 box1">=</button>
+            <button class="col-3 box" onclick="storeData('0')">0</button>
+            <button class="col-3 box" onclick="storeData('.')">.</button>
+            <div class="col-6 box1" onclick="equal()">=</button>
         </div>
     </div>
 </div>

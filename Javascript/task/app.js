@@ -258,22 +258,22 @@
 // console.log(fac(num));
 
 
-var arry = ['ghous',"ali" ,'ghous',"ghous", "ghous","ali"];
+// var arry = ['ghous',"ali" ,'ghous',"ghous", "ghous","ali"];
 
 // var arry = ['ali','ali','ali','ali',"ali","ali","ghous"]
-for (var i = 0; i < arry.length; i++) {
-    // console.log(arry , i + 1)
-    // debugger
-    for (var j = i; j < arry.length; j++) {
-        // console.log(j)
-        console.log(arry[i] === arry[j]);
-        if (arry[i] === arry[j]) {
-            arry.splice(j,1)
-        }
-    }
+// for (var i = 0; i < arry.length; i++) {
+//     // console.log(arry , i + 1)
+//     // debugger
+//     for (var j = i; j < arry.length; j++) {
+//         // console.log(j)
+//         console.log(arry[i] === arry[j]);
+//         if (arry[i] === arry[j]) {
+//             arry.splice(j,1)
+//         }
+//     }
 
-}
-console.log(arry)
+// }
+// console.log(arry)
 // var arry = ['ali', 'ali', 'ghous'];
 
 // for (var i = 0; i < arry.length; i++) {
@@ -290,3 +290,12 @@ console.log(arry)
 
 // console.log(arry);
 
+
+function changeImage() {
+    var image = document.getElementById('myImage');
+    if (image.src.match("bulbon")) {
+      image.src = "https://as2.ftcdn.net/v2/jpg/00/77/99/99/1000_F_77999958_tZYT7xWlSJewLgsMYY3CrAWvYITlWYTF.jpg";
+    } else {
+      image.src = "https://e7.pngegg.com/pngimages/922/441/png-clipart-creative-bulb-lightbulb-energy-saving-lamps-thumbnail.png";
+    }
+  }
