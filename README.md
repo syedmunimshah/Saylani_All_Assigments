@@ -14,6 +14,9 @@ https://grumpybeartown.netlify.app/
 # CSS Assignment 4
 https://tere-web.netlify.app/
 
+# JavaScript Calculator
+https://calculator-syed-javascript.netlify.app/
+
 
 
 
