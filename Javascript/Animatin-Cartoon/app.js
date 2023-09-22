@@ -1,10 +1,11 @@
 var left = 0;
+var right = 0; //is ko global banaya tw chalraha hy agr isko function ky under banaya tw ni chalyga .q?
 function abc() {
     var character = document.getElementById('character');
 
-    // console.log(left)
+    console.log(left)
     // forward chalyga code d
-    if (event.keyCode === 68) {
+    if (event.keyCode === 68  && left < 400) {
         left = left + 10;
         character.style.left = left + "px";
         // character.src="./img/ironMan/iron-walk.gif"
@@ -98,12 +99,15 @@ function abc() {
     //     console.log("hello 1s");
     // }),1000)
 
+
+
     //spider man start 
+   
     var spiderCharacter = document.getElementById("Spider");
-    var right = 0;
+   
     console.log(right)
    // forward hoga j
-    if (event.keyCode === 74) {
+    if (event.keyCode === 74  && right <370) {
         right = right + 10;
         spiderCharacter.style.right = right + "px"
         spiderCharacter.src="./img/spiderman/spidey-whateva.gif";
@@ -111,7 +115,7 @@ function abc() {
 
     }
 // backward hoga l
-    else if (event.keyCode === 76) {
+    else if (event.keyCode === 76 && right >0) {
         right = right - 10;
         spiderCharacter.style.right = right + "px"
         spiderCharacter.src = './img/spiderman/spidey-whateva.gif'
