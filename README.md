@@ -17,6 +17,9 @@ https://tere-web.netlify.app/
 # JavaScript Calculator
 https://calculator-syed-javascript.netlify.app/
 
+# JavaScript animation cartoon
+https://ironman-spiderman-animation-gif.netlify.app/
+
 
 
 
