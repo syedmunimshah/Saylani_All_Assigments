@@ -13,8 +13,9 @@
 
 <body>
 
-    <div class="container-fluid">
-        <form action="" class="form_main ">
+    <div class="container-fluid form_main">
+        <!-- <form action="" class="form_main"> -->
+
             <p class="heading text-uppercase "><i>Contact Form</i></p>
            
 
@@ -23,14 +24,14 @@
                 <div class="col-md-6">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-bounding-box"></i></span>
-                        <input type="text" class="form-control" placeholder="First Name" aria-label="First Name" aria-describedby="basic-addon1">
+                        <input type="text" id="FName" class="form-control" placeholder="First Name" aria-label="First Name" aria-describedby="basic-addon1">
                       </div>
                 </div>
                
                 <div class="col-md-6">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-person-circle"></i></span>
-                        <input type="text" class="form-control" placeholder="Last Name" aria-label="Last Name" aria-describedby="basic-addon1">
+                        <input type="text" id="LName"  class="form-control" placeholder="Last Name" aria-label="Last Name" aria-describedby="basic-addon1">
                       </div>
                 </div>
             </div>
@@ -39,14 +40,14 @@
                 <div class="col-md-6">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-telephone"></i></span>
-                        <input type="tel" class="form-control" placeholder="Number" aria-label="Number" aria-describedby="basic-addon1">
+                        <input type="tel" id="Number" class="form-control" placeholder="Number" aria-label="Number" aria-describedby="basic-addon1">
                       </div>
                 </div>
                
                 <div class="col-md-6">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i >@</i></span>
-                        <input type="email" class="form-control" placeholder="abc@xyz.com" aria-label="Email" aria-describedby="basic-addon1">
+                        <input type="email" id="Email" class="form-control" placeholder="abc@xyz.com" aria-label="Email" aria-describedby="basic-addon1">
                       </div>
                 </div>
             </div>
@@ -57,7 +58,7 @@
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-geo-alt-fill"></i></span>
                      
-                        <select class="form-select" aria-label="Default select examplee">
+                        <select class="form-select" aria-label="Default select examplee" id="Select">
                             <option selected>Select City</option>
                             <option value="Karachi">Karachi</option>
                             <option value="Lahore">Lahore</option>
@@ -69,7 +70,7 @@
                 <div class="col-md-6">
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-calendar3"></i></span>
-                        <input type="date" class="form-control" placeholder="Date" aria-label="Email" aria-describedby="basic-addon1">
+                        <input type="date" id="Date" class="form-control" placeholder="Date" aria-label="Email" aria-describedby="basic-addon1">
                       </div>
                 </div>
             </div>
@@ -79,11 +80,11 @@
                
                 <div class="col-md-12">
                     <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <input class="form-check-input" type="radio" name="gender" id="inlineRadio1" value="Male">
                         <label class="form-check-label" for="inlineRadio1">Male</label>
                       </div>
                       <div class="form-check form-check-inline">
-                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <input class="form-check-input" type="radio" name="gender" id="inlineRadio2" value="Female">
                         <label class="form-check-label" for="inlineRadio2">Female</label>
                       </div>
                      
@@ -97,30 +98,33 @@
                     <div class="input-group mb-3">
                         <span class="input-group-text" id="basic-addon1"><i class="bi bi-textarea-t"></i></span>
                       
-                        <textarea class="form-control" class="form-control" id="exampleFormControlTextarea1"placeholder="Commect Here..." rows="3"></textarea>  
+                        <textarea class="form-control" id="TextArea" class="form-control" id="exampleFormControlTextarea1"placeholder="Commect Here..." rows="3"></textarea>  
                     </div>
                 </div>
             </div>
 
 
-            <button id="button">Submit</button>
+            <button type="Submit" id="button"  onclick="submit()">Submit</button>
        
-        </form>
+        <!-- </form> -->
        
     </div>
 
+    <!-- form out  -->
     <div class="container mt-5 mb-5 pt-5 ">
        
         <p class="heading text-uppercase text-center mt-5 mb-5"><i>Contact Form Data</i></p>
         <div class="row ">
             <div class=" col-sm-11 col-md-4 pb-5 mx-auto d-flex justify-content-center align-items-center">
-                <div class="card"></div>
+                <div class="card" id="card">
+                
+                </div>
             </div>
             <div class=" col-sm-11 col-md-4 pb-5 mx-auto d-flex justify-content-center align-items-center">
-                <div class="card"></div>
+                <!-- <div class="card"></div> -->
             </div>
             <div class=" col-sm-11 col-md-4 pb-5 mx-auto d-flex justify-content-center align-items-center">
-                <div class="card"></div>
+                <!-- <div class="card"></div> -->
             </div>
         </div>
     </div>
