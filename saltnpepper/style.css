@@ -23,6 +23,7 @@ body {
 
 
 .nav_back {
+    
     background-color: #000000;
 }
 
@@ -77,6 +78,11 @@ body {
 @media screen and (max-width: 992px) {
     .nav_btn1 {
         display: none !important;
+    }
+    .mbl{
+       
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
 
