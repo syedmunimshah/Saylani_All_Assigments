@@ -7,7 +7,6 @@
 function submit() {
     // e.preventDefault()
     var FName = document.getElementById("FName").value;
-
     var LName = document.getElementById("LName").value;
     var Number = document.getElementById("Number").value;
     var Email = document.getElementById("Email").value;

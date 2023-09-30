@@ -198,6 +198,14 @@ body {
 
 
 }
+@media screen and (max-width: 1047px) {
+    .sec5{
+        display: none;
+    }
+
+
+
+}
 
 @media screen and (max-width: 763px) {
     .right_inner_back_img {
