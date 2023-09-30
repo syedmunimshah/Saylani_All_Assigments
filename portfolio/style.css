@@ -275,11 +275,30 @@ text-align: center;
     margin: 20px 0px;
 }  
  /* social icon end  */
+
+ .left_side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ }
+ @media only screen and (max-width: 996px) {
+    
+    .left_side{
+    
+      display: flex;
+      flex-direction: column;
+    }
+   
+
+}
  @media only screen and (max-width: 767px) {
     
     .left_side{
       width: 80%;
       margin: 0px auto;
+      display: flex;
+      flex-direction: column;
     }
    
 
