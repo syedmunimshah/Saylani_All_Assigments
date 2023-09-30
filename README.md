@@ -20,6 +20,9 @@ https://calculator-syed-javascript.netlify.app/
 # JavaScript animation cartoon
 https://ironman-spiderman-animation-gif.netlify.app/
 
+#Education
+https://rapidative.com/saylani/
+
 
 
 
