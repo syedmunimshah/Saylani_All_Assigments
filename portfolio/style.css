@@ -57,7 +57,7 @@ color: white;
     @media only screen and (max-width: 991px) {
       .btn {
        margin: 10px auto; 
-       width: 50%;
+       /* width: 50%; */
            
          
         }
@@ -445,5 +445,7 @@ option{
   color: #52C9F7!important;
 }
 
-
+a{
+  text-decoration: none;
+}
 /* end form  */
