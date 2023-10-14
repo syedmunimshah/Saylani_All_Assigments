@@ -122,6 +122,8 @@
     box-shadow: 15px 15px 30px #bebebe,
                -15px -15px 30px #ffffff;
   }
+
+
    
    
 
@@ -142,3 +144,7 @@
   padding: 40px 20px;
 
 }
+
+/* #displayBox{
+  display: none!important;
+} */

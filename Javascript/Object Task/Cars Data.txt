@@ -1,0 +1,147 @@
+
+var cars = {
+    Toyota: {
+        make: "Toyota",
+        model: "Corolla",
+        year: 2022,
+        price: 25000,
+        colors: ["Silver", "Blue", "Black"]
+    },
+    Honda: {
+        make: "Honda",
+        model: "Accord",
+        year: 2023,
+        price: 28000,
+        colors: ["Red", "White", "Gray"]
+    },
+    Ford: {
+        make: "Ford",
+        model: "Mustang",
+        year: 2022,
+        price: 35000,
+        colors: ["Yellow", "Black", "Orange"]
+    },
+    Chevrolet: {
+        make: "Chevrolet",
+        model: "Camaro",
+        year: 2022,
+        price: 32000,
+        colors: ["Red", "Black", "Blue"]
+    },
+    Nissan: {
+        make: "Nissan",
+        model: "Altima",
+        year: 2023,
+        price: 26000,
+        colors: ["Blue", "Silver", "White"]
+    },
+    BMW: {
+        make: "BMW",
+        model: "3 Series",
+        year: 2023,
+        price: 40000,
+        colors: ["Black", "Gray", "White"]
+    },
+    Audi: {
+        make: "Audi",
+        model: "A4",
+        year: 2022,
+        price: 38000,
+        colors: ["White", "Silver", "Gray"]
+    },
+    MercedesBenz: {
+        make: "Mercedes-Benz",
+        model: "C-Class",
+        year: 2023,
+        price: 42000,
+        colors: ["Silver", "Blue", "Black"]
+    },
+    Hyundai: {
+        make: "Hyundai",
+        model: "Elantra",
+        year: 2022,
+        price: 24000,
+        colors: ["Blue", "Red", "White"]
+    },
+    Kia: {
+        make: "Kia",
+        model: "Optima",
+        year: 2022,
+        price: 23000,
+        colors: ["Gray", "White", "Black"]
+    },
+    Volkswagen: {
+        make: "Volkswagen",
+        model: "Passat",
+        year: 2023,
+        price: 27000,
+        colors: ["Gray", "Blue", "Black"]
+    },
+    Subaru: {
+        make: "Subaru",
+        model: "Legacy",
+        year: 2023,
+        price: 26000,
+        colors: ["Red", "Blue", "Silver"]
+    },
+    Mazda: {
+        make: "Mazda",
+        model: "Mazda3",
+        year: 2023,
+        price: 25000,
+        colors: ["White", "Gray", "Red"]
+    },
+    Lexus: {
+        make: "Lexus",
+        model: "ES",
+        year: 2022,
+        price: 35000,
+        colors: ["Black", "Blue", "Gray"]
+    },
+    Acura: {
+        make: "Acura",
+        model: "TLX",
+        year: 2022,
+        price: 32000,
+        colors: ["White", "Red", "Gray"]
+    },
+    Tesla: {
+        make: "Tesla",
+        model: "Model 3",
+        year: 2022,
+        price: 45000,
+        colors: ["Black", "White", "Red"]
+    },
+    Jaguar: {
+        make: "Jaguar",
+        model: "XE",
+        year: 2023,
+        price: 40000,
+        colors: ["Blue", "Black", "Silver"]
+    },
+    Infiniti: {
+        make: "Infiniti",
+        model: "Q50",
+        year: 2023,
+        price: 38000,
+        colors: ["Red", "Gray", "White"]
+    },
+    Volvo: {
+        make: "Volvo",
+        model: "S60",
+        year: 2022,
+        price: 36000,
+        colors: ["Silver", "Blue", "Black"]
+    },
+    Porsche: {
+        make: "Porsche",
+        model: "Cayman",
+        year: 2022,
+        price: 65000,
+        colors: ["Red", "Black", "White"]
+    }
+};
+for(var company in cars){
+   
+    console.log(cars[company].colors)
+}

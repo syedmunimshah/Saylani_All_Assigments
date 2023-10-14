@@ -1,6 +1,8 @@
 
 function submit() {
 
+    // document.getElementById("displayBox").style.display="inline"
+
     var FName = document.getElementById("FName").value;
     var LName = document.getElementById("LName").value;
     var Number = document.getElementById("Number").value;
@@ -55,7 +57,8 @@ function submit() {
         document.getElementById("FT").style.color = "rgb(126, 84, 255)";
         document.getElementById("FT").innerHTML = "<h6>*Commect is Required*</h6>";
         flag = true;
-    } if (!flag) {
+    } 
+    if (!flag) {
         var Gender = document.getElementById("Gender");
         for (var i = 0; i < gender.length; i++) {
             if (gender[i].checked) {
@@ -128,4 +131,5 @@ function submit() {
         document.getElementById("FT").innerHTML = "";
 
     }
+    
 }
