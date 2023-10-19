@@ -5,10 +5,40 @@ body{
   background-attachment: fixed; 
   background-size: 100% 100%;
 }
+
+@media only screen and (max-width: 992px) {
+    .navbar-collapse {
+     margin-top: 10px;
+    }
+    #company{
+margin-bottom: 15px;
+    }
+    #brand{
+margin-bottom: 7px;
+    }
+    .form-control{
+        margin-left:0px!important;
+    }
+    .btn{
+        width: 50%;
+    }
+    #search_mbl{
+        width: 50%;
+    }
+    .imgg{
+    width: 100%;
+    height: -webkit-fill-available;
+}
+
+  }
+  .imgg{
+    width: 100%;
+    height: -webkit-fill-available;
+}
 .navbar{
     background:#273E6C;
-    height: 75px;
-    padding: 0px 30px;
+ 
+    padding: 18px 30px;
 }
 .navbar-brand{
     color: white;

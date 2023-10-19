@@ -11,20 +11,16 @@
     <title>Hello, world!</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg ">
+
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">CARS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-           
-           
-           
-          </ul>
-         
-          <div class="d-flex">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
            
             <select onchange="Oncompanychange()" id="company" class="form-select me-5" aria-label="Default select example">
               <option selected  disabled>Open this select Company</option>
@@ -34,17 +30,29 @@
               <option selected  disabled>Open this select Brand</option>
              
             </select>
+          </ul>
+          <div class="d-flex">
+            <input class="form-control ms-5" id="search_mbl" type="search" placeholder="Search" aria-label="Search">
             <button onclick="filterCar()" class="btn" type="submit">Search</button>
           </div>
         </div>
       </div>
     </nav>
-
+  
+    
+<!-- nav end  -->
     <div class="container-fluid mt-5 pb-3">
       <div class="container">
-        <div id="allCard" class="row">
+        <div id="allCard" class="row ">
        
          
+
+        
+
+
+
+
+
 
      
       </div>

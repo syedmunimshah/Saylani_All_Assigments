@@ -1,46 +1,4 @@
 
-
-// var cars = {
-
-//     honda: {
-//         civic: {
-//             reborn: {
-//                 name: "Civic Rebon",
-//                 model: "1234",
-//                 price: "2000",
-//                 colors: ["red", "black", "White"]
-
-//             }
-//         }
-//     }
-
-// }
-
-// for(var company in cars){
-//     for(var model in cars[company])
-//     for(var variant in cars[company][model])
-//     console.log(cars[company][model][variant].name);
-// }
-
-
-
-// var cars={
-//     name:"ALi",
-//     FName:"Azam",
-//     Gender:"10",
-
-
-// }
-// cars.color="red";
-// console.log(cars.school)
-// practice data end 
-
-
-
-
-
-
-// Start data 
 var carVariants = {
     honda: {
         civic: {
@@ -671,7 +629,7 @@ for (var key in carVariants) {
 
                    
        
-                    <div class="col-4 mb-5">
+                    <div class="col-sm-12 col-md-4 mb-5 mx-auto">
                       <div class="card" style="">
                         <img src="${CarData.image}" class="card-img-top">
                         <div class="card-body">
@@ -728,10 +686,14 @@ function filterCar() {
     allCard.innerHTML = `
 
                    
-       
     <div class="col-12">
-      <div class="card" style="">
-        <img src="${CarData.image}">
+    <div class="card" style="">
+  
+    <div class="row">
+      <div class="col">
+        <img src="${CarData.image}" class="img-fluid imgg">
+      </div>
+      <div class="col">
         <div class="card-body">
           <h5 class="card-title">${CarData.name}</h5>
           <p class="card-text d-flex justify-content-between"><span class="sub_title">Year</span>  ${CarData.year} <i class="bi bi-calendar2-check"></i></p>
@@ -745,6 +707,8 @@ function filterCar() {
         </div>
       </div>
     </div>
+    </div>
+    </div> 
 
 
 
@@ -753,12 +717,7 @@ function filterCar() {
 }
 
 
-// text area start
-// function submit(){
-// var textArea=document.getElementById("textArea").value
-// console.log(event.target.value);
-// console.log(textArea);
-// }
+
 
 
 
