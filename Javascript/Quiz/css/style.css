@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Urbanist", sans-serif;
+}
+
+
+
+html {
+    font-size: 62.5%;
+}
+h1{
+    padding: 20px 0px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+body {
+
+    height: 100vh;
+
+    display: grid;
+
+    place-items: center;
+
+    background: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+}
+
+.quiz-section {
+
+    width: 90%; /* Adjust the width for smaller screens */
+    max-width: 80%; /* Add a maximum width for better readability on small screens */
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem; /* Reduce padding for small screens */
+    margin: 1rem; /* Add margin to separate the quiz section from the edges */
+}
+
+
+
+
+
+#question {
+    font-size: 2.4rem; /* Decrease the font size for small screens */
+    padding: 2rem;
+
+}
+
+ul {
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1rem; /* Reduce the gap between options for small screens */
+    padding: 2rem;
+
+}
+
+li {
+    list-style: none;
+
+    min-width: 40%;
+
+    min-height: 5rem;
+
+    border-radius: 7rem;
+
+    /* border: 0.2rem solid rgb(224, 224, 224); */
+    padding: 1.3rem;
+
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+
+    -ms-border-radius: 5rem;
+
+    -o-border-radius: 5rem;
+
+    -webkit-border-radius: 5rem;
+
+    font-size: 1.8rem;
+
+    font-weight: bold;
+
+    display: flex;
+
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+label {
+
+    padding-left: 1rem;
+    font-size: 1.4rem; 
+}
+
+
+
+
+input[type="radio"] {
+    width: 16px; /* Adjust the radio button size for small screens */
+    height: 16px;
+}
+
+
+
+/* Style the appearance of the radio button */
+input[type="radio"]:checked {
+
+    background-color: #8ec5fc;
+    /* Change the background color when selected #*/
+    border-color: #8ec5fc;
+    /* Change the border color when selected */
+}
+
+
+.btn {
+
+    padding: 1rem 2rem;
+}
+
+
+
+
+button {
+    
+    /* height: Srem; */
+
+    padding: 1rem 2rem;
+
+    height: 5rem;
+
+    border-radius: 5rem;
+
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+
+    -ms-border-radius: 5rem;
+
+    -o-border-radius: 5rem;
+
+    background-color: #7090e7;
+
+    border: none;
+
+    color: #fff;
+
+    font-size: 1.6rem;
+
+}
+
+
+
+
+.result {
+    width: 90%;
+    max-width: 400px;
+    height: auto;
+    margin: 1rem;
+    padding: 1rem;
+
+    background-color: #fff;
+    border-radius: 0.5rem;
+
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+
+    -o-border-radius: 0.5rem;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 2.4rem;
+
+    align-items: center;
+
+}
+
+.result h2,
+
+.score {
+
+    font-size: 2.4rem;
+}
+
+
+.result p {
+
+    font-size: 1.6rem;
+}
+#timer{
+    padding: 20px 0px;
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+}

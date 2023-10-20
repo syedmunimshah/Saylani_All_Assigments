@@ -1,0 +1,224 @@
+css\style.css
+
+1| @import url("https://fonts.googleapis.com/css2?
+family=Poppins:wght@200;300;400;600&5family=Urbanist:wght@300;400;600;700;800;9006disple
+
+2
+
+3% {
+
+4 margin: 0;
+
+5 padding: 0;
+
+6 box-sizing: border-box;
+
+7 font-family: "Urbanist", sans-serif;
+8
+
+4
+9
+10 html {
+11 font-size: 62.5%;
+12 }
+13
+14 | body {
+
+15 height: 100vh;
+
+16 display: grid;
+
+17 place-items: center;
+
+18|  packground-color: [I #8ec5fc;
+
+19 background-image: linear-gradient(62deg, #8ec5fc 0%, #e@c3fc 100%);
+20 }
+
+22| .quiz-section {
+
+23 width: 50%;
+
+24 height: auto;
+
+25 /* padding: @ 5rem; */
+
+26 background-color: [1 #fff;
+27 border-radius: 0.5rem;
+
+28 -webkit-border-radius: 0.5rem;
+
+29 -moz-border-radius: 0.5rem;
+
+30 -ms-border-radius: ©.5rem;
+
+31 -o-border-radius: 0.5rem;
+
+32 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+33| }
+
+34
+
+35 /x subscribe to thapa technical « https://wwm.youtube.com/thapatechnical */
+
+37 | #question {
+38 font-size: 4.4rem;
+39 padding: 4rem 5rem;
+
+40| }
+41
+42 ul {
+
+43 display: flex;
+
+44 justify-content: center;
+45 align-items: flex-start;
+46 flex-direction: column;
+47 gap: 2rem;
+
+48 padding: 4rem 5rem;
+
+51) 1i {
+52 list-style: none;
+
+53 min-width: 40%;
+
+54 min-height: 7rem;
+
+55 border-radius: 7rem;
+
+56 border: 0.2rem solid rgb(224, 224, 224);
+57 padding: © 7rem © 3rem;
+
+58 -webkit-border-radius: 5rem;
+59 -moz-border-radius: 5rem;
+
+60 -ms-border-radius: 5rem;
+
+61 -o-border-radius: 5rem;
+
+62 -webkit-border-radius: 5rem;
+
+63 font-size: 1.8rem;
+
+64 font-weight: bold;
+
+65 display: flex;
+
+66 justify-content: flex-start;
+67 align-items: center;
+
+68 }
+
+69
+
+70 | label {
+
+71 padding-left: 1rem;
+72| }
+
+73
+
+74 /* Increase the size of radio button #*/
+
+75 | input[type="radio"] {
+
+76 width: 20px; /* Set your desired width */
+
+77 height: 20px; /*x Set your desired height */
+78 }
+
+79
+
+80 | /* Style the appearance of the radio button */
+81| input[type="radio"]:checked {
+
+82 background-color: [I #8ec5fc; /* Change the background color when selected #*/
+83 border-color: [ #8ec5fc; /* Change the border color when selected */
+84 }
+
+85
+
+86| .btn {
+
+87 padding: 2rem 5rem;
+
+88
+
+89
+
+90 button {
+
+91 /* height: Srem; */
+
+92 padding: © 5rem;
+
+93 height: 5rem;
+
+94 border-radius: 5rem;
+
+95 -webkit-border-radius: 5rem;
+96 -moz-border-radius: 5rem;
+
+97 -ms-border-radius: 5rem;
+
+98 -o-border-radius: 5rem;
+
+99 background-color: Hl #7090e7;
+
+100 border: none;
+
+101 color: [1 #fff;
+
+102 font-size: 1.6rem;
+
+103 | }
+
+104
+
+105 /* subscribe to thapa technical « https://www.youtube.com/thapatechnical */
+106
+
+107 | .result {
+108 width: 100%;
+
+109 height: auto;
+
+110 padding: 5rem;
+
+111|  packground-color: [1 #fff;
+112 border-radius: @.5rem;
+
+113 -webkit-border-radius: 0.5rem;
+114 -moz-border-radius: 0.5rem;
+115 -ms-border-radius: 0.5rem;
+
+116 -o-border-radius: 0.5rem;
+
+117 box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+118 display: flex;
+
+119 flex-direction: column;
+
+120 gap: 2.4rem;
+
+121 align-items: center;
+
+122 | }
+
+123
+124| .result h2,
+
+125| .score {
+
+126 font-size: 3.4rem;
+127 | }
+
+128
+129 | .result p {
+
+130 font-size: 2rem;
+131 }
+
+132
+
